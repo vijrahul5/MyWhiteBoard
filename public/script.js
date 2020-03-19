@@ -1,4 +1,4 @@
-const socket = io.connect("http://mydrawboard.herokuapp.com/");
+const socket = io.connect("https://mydrawboard.herokuapp.com/");
 const board = document.querySelector(".board");
 var rect = board.getBoundingClientRect();
 board.height = window.innerHeight;
